@@ -1,0 +1,9 @@
+ num = 1333
+ e = num/2
+e1 = 0.5*(num/e+e)
+for( i in range(1,10)):
+    if(num/e1 == e1):
+print(e1)
+else:
+e1 = 0.5*(num/e1+e1)
+print("no root")
